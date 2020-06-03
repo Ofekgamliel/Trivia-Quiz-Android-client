@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_gravity="center"
+    android:layout_marginLeft="55dp"
+    android:layout_marginRight="55dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="281dp"
+            android:layout_height="129dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_weight="@android:integer/config_longAnimTime"
+            app:cardBackgroundColor="@color/colorAccent"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="15dp">
+
+            <TextView
+                android:layout_width="302dp"
+                android:layout_height="135dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="14dp"
+                android:fontFamily="serif-monospace"
+                android:gravity="center_horizontal"
+                android:text="Game Over\nYour Score:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/fab2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/finalScore"
+                android:layout_width="85dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center|center_vertical"
+                android:fontFamily="serif-monospace"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/fab2"
+                android:textSize="24sp"
+                android:typeface="sans"
+                android:visibility="visible" />
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/playAgain"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="75dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@android:color/transparent"
+            app:backgroundTint="@color/fab1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="6dp"
+            android:text="Play\nagain"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/scoreBackground"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/highScore"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="75dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@android:color/transparent"
+            app:backgroundTint="@color/fab1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="6dp"
+            android:text="High\nscore"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/scoreBackground"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+</FrameLayout>

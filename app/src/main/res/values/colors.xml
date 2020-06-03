@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5476F4</color>
+    <color name="colorPrimaryDark">#A0FF0000</color>
+    <color name="colorAccent">#A0000000</color>
+    <color name="inputBackGround">#ffffff</color>
+    <color name="scoreBackground">#FFFFFF</color>
+
+    <color name="fab1">#D68F8F</color>
+    <color name="fab2">#FFFFFF</color>
+    <color name="fab3">#FFFFFF</color>
+    <color name="fab4">#FFFFFF</color>
+    <color name="fab5">#FFFFFF</color>
+    <color name="fab6">#A00DFF00</color>
+    <color name="transp">#006570a8</color>
+</resources>
