@@ -1,3 +1,3 @@
 # Trivia-Quiz-Android-client
 
-![](vid.mp4)
+![](vid2.mp4)
