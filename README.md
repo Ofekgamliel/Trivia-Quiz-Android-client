@@ -12,11 +12,9 @@ The project consists of three parts:
 	 - UI interface for the app
 
 ---
-
-## How To Use
-
 ## How To Use
 
 
----
+
 ![vid3](https://user-images.githubusercontent.com/48961597/83747088-c929f080-a668-11ea-9cfb-f14b364d88d9.gif)
+---
