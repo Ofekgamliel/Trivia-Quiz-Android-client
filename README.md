@@ -14,6 +14,13 @@ The project consists of three parts:
 		- mysql-connector-java-8.0.14
 
 ---
+<p float="left">
+  <img src="/main.PNG" width="100" />
+  <img src="/main.PNG" width="100" /> 
+  <img src="/main.PNG" width="100" />
+</p>
+
+
 ## How To Use
 
 
