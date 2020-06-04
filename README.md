@@ -2,11 +2,11 @@
 --- 
 ## Summary
 The project consists of three parts:
-1. Server - eclipse
+1. Server - JAVA eclipse
 	 - Responsible for communication with the DB and the Android client
 	 - Refer to : https://github.com/Ofekgamliel/Trivia-Quiz-Server.git
 		
-2. Database - mySQL
+2. Database - mySQL workbanch
 	 - Contains 2 tables: questions and high scores
 3. Client - Android studio
 	 - UI interface for the app
