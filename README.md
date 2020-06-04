@@ -10,6 +10,8 @@ The project consists of three parts:
 	 - Contains 2 tables: questions and high scores
 3. Client - Android studio
 	 - UI interface for the app
+	 - Dependencies: 
+		- mysql-connector-java-8.0.14
 
 ---
 ## How To Use
