@@ -1,9 +1,10 @@
-# Trivia Quiz Project in JAVA
-> 
+# Trivia Quiz Project - JAVA
+--- 
 ## Summary
 The project consists of three parts:
 1. Server - eclipse
-	 - Responsible for communication with the DB and the Android client:
+	 - Responsible for communication with the DB and the Android client
+	 - Refer to : https://github.com/Ofekgamliel/Trivia-Quiz-Server.git
 		
 2. Database - mySQL
 	 - Contains 2 tables: questions and high scores
@@ -11,18 +12,6 @@ The project consists of three parts:
 	 - UI interface for the app
 
 ---
-
-### Table of Contents
-You're sections headers will be used to reference location of destination.
-
-- [Description](#description)
-- [How To Use](#how-to-use)
-- [References](#references)
-- [License](#license)
-- [Author Info](#author-info)
-
----
-
 ## Description
 
 Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
