@@ -1,13 +1,14 @@
-# Trivia-Quiz-Android-client
-
+# Trivia Quiz Project in JAVA
+> 
+## Summary
 The project consists of three parts:
 1. Server - eclipse
-Responsible for communication with the establishment and the client:
+	 - Responsible for communication with the establishment and the client:
 		
 2. Database - mySQL
-   Contains 2 tables: questions and high scores
+	 - Contains 2 tables: questions and high scores
 3. Client - Android studio
-   UI interface for the app
+	 - UI interface for the app
 
 # Read Me Template
 
