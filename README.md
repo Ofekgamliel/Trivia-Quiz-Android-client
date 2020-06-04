@@ -16,8 +16,8 @@ The project consists of three parts:
 ---
 <p float="left">
   <img src="/main.PNG" width="100" />
-  <img src="/main.PNG" width="100" /> 
-  <img src="/main.PNG" width="100" />
+  <img src="/game_page.PNG" width="100" /> 
+  <img src="/high.PNG" width="100" />
 </p>
 
 
